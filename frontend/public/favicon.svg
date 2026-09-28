@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" width="100%" height="100%">
+  <!-- Background circle with smooth premium gradient -->
+  <defs>
+    <linearGradient id="bg-grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#09090b" /> <!-- Zinc 950 -->
+      <stop offset="100%" stop-color="#18181b" /> <!-- Zinc 900 -->
+    </linearGradient>
+    <linearGradient id="accent-grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#ea580c" /> <!-- orange-600 (saffron) -->
+      <stop offset="100%" stop-color="#f97316" /> <!-- orange-500 -->
+    </linearGradient>
+    <linearGradient id="glow-grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#6366f1" /> <!-- indigo-500 -->
+      <stop offset="100%" stop-color="#3b82f6" /> <!-- blue-500 -->
+    </linearGradient>
+  </defs>
+
+  <!-- Base Card Background -->
+  <rect width="128" height="128" rx="36" fill="url(#bg-grad)" />
+  
+  <!-- Outer glowing ring border -->
+  <rect x="4" y="4" width="120" height="120" rx="32" fill="none" stroke="url(#glow-grad)" stroke-width="3" opacity="0.35" />
+
+  <!-- Scales of Justice Emblem -->
+  <!-- Central pillar of the scale -->
+  <path d="M64 26v72" stroke="url(#accent-grad)" stroke-width="6" stroke-linecap="round" />
+  
+  <!-- Base of the pillar -->
+  <path d="M46 98h36" stroke="url(#accent-grad)" stroke-width="6" stroke-linecap="round" />
+  <path d="M52 92h24" stroke="url(#accent-grad)" stroke-width="4" stroke-linecap="round" />
+
+  <!-- Top beam/bar of the scales -->
+  <path d="M30 46h68" stroke="#f8fafc" stroke-width="6" stroke-linecap="round" />
+  <circle cx="64" cy="46" r="6" fill="#f8fafc" />
+
+  <!-- Left scale plate and strings -->
+  <path d="M30 46 L20 74 h20 z" fill="none" stroke="url(#glow-grad)" stroke-width="3.5" stroke-linejoin="round" />
+  <path d="M16 74h28" stroke="url(#accent-grad)" stroke-width="5" stroke-linecap="round" />
+
+  <!-- Right scale plate and strings -->
+  <path d="M98 46 L88 74 h20 z" fill="none" stroke="url(#glow-grad)" stroke-width="3.5" stroke-linejoin="round" />
+  <path d="M84 74h28" stroke="url(#accent-grad)" stroke-width="5" stroke-linecap="round" />
+</svg>

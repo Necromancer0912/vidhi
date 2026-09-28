@@ -1,0 +1,436 @@
+{
+  "common": {
+    "close": "Close",
+    "cancel": "Cancel",
+    "language": "Language",
+    "lightMode": "Switch to light mode",
+    "darkMode": "Switch to dark mode"
+  },
+  "titles": {
+    "home": "Vidhi · Indian law in plain words",
+    "chat": "Ask · Vidhi",
+    "library": "Library · Vidhi",
+    "signin": "Sign in · Vidhi"
+  },
+  "nav": {
+    "home": "Vidhi home",
+    "main": "Main",
+    "howItWorks": "How it works",
+    "library": "Library",
+    "questions": "Questions",
+    "signIn": "Sign in",
+    "ask": "Ask Vidhi",
+    "menu": "Menu"
+  },
+  "footer": {
+    "about": "Plain answers from the text of Indian law, with every section cited. An independent project, not a law firm.",
+    "product": "Product",
+    "policies": "Policies",
+    "builtBy": "Built by",
+    "notAdvice": "Vidhi gives legal information, not legal advice.",
+    "copyright": "© {{year}} Vidhi",
+    "author1": "Sayan Das",
+    "author2": "Senjuti Ghosal"
+  },
+  "landing": {
+    "hero": {
+      "title": "Know what the law actually says.",
+      "body": "Ask about unpaid wages, a deposit your landlord kept, a refund, or an FIR the police won't register. Vidhi answers in plain words from the text of Indian law and shows the exact sections it used.",
+      "primary": "Ask a question",
+      "secondary": "Browse the library",
+      "languagesTitle": "Ask in 11 languages",
+      "languagesBody": "English, Hindi, Bengali and 8 more",
+      "cardBadge": "documents",
+      "cardTitle": "The library Vidhi answers from",
+      "cardPassages": "passages it can search",
+      "chartLabel": "Library by type: 251 acts and codes, 171 rules, 30 other documents, 22 landmark judgments and 20 guidelines",
+      "citationExample": "Section 5 · Time of payment of wages",
+      "citationAct": "Payment of Wages Act, 1936"
+    },
+    "mix": {
+      "acts": "Acts",
+      "rules": "Rules",
+      "other": "Other",
+      "cases": "Cases",
+      "guidelines": "Guides"
+    },
+    "sources": {
+      "lead": "Answers come from the official text of laws like",
+      "more": "and 489 more",
+      "acts": {
+        "rti": "Right to Information Act, 2005",
+        "consumer": "Consumer Protection Act, 2019",
+        "bns": "Bharatiya Nyaya Sanhita, 2023",
+        "wages": "Payment of Wages Act, 1936",
+        "dv": "Protection of Women from Domestic Violence Act, 2005"
+      }
+    },
+    "topics": {
+      "lead": "Most legal problems start as ordinary ones: a salary that didn't arrive, a deposit that never came back, a complaint the police wouldn't write down. Start with yours.",
+      "askThis": "Ask this",
+      "work": {
+        "title": "Work and wages",
+        "body": "Unpaid salary, gratuity, provident fund, notice periods.",
+        "prompt": "My employer hasn't paid my salary for two months. What can I do?"
+      },
+      "home": {
+        "title": "Home and property",
+        "body": "Rent agreements, security deposits, delayed flats under RERA.",
+        "prompt": "My landlord won't return my security deposit. What are my options?"
+      },
+      "police": {
+        "title": "Police and safety",
+        "body": "Filing an FIR, your rights on arrest, protection from domestic violence.",
+        "prompt": "The police refused to register my FIR. What can I do?"
+      },
+      "consumer": {
+        "title": "Shopping and services",
+        "body": "Defective products, refunds, online fraud, RTI requests.",
+        "prompt": "The seller won't refund a defective phone. How do I file a consumer complaint?"
+      }
+    },
+    "process": {
+      "title": "How an answer gets made",
+      "step": "Step {{n}}",
+      "s1Title": "Your question is matched to the law",
+      "s1Body": "Vidhi searches 72,771 passages two ways at once: by meaning, and by exact words such as section numbers. Questions in other languages are translated first, so every language searches the same library.",
+      "s2Title": "A draft is written from those passages",
+      "s2Body": "The model writes the answer from what the search found and cites where each point comes from. It isn't meant to fill gaps from memory.",
+      "s3Title": "Each claim is checked before you see it",
+      "s3Body": "The draft is broken into individual claims, and each one is compared with the sources. If too many don't hold up, Vidhi searches again and rewrites, up to two more times."
+    },
+    "numbers": {
+      "title": "What's behind it",
+      "documents": {
+        "label": "Official documents",
+        "body": "251 acts and codes, 171 rules and regulations, 22 landmark judgments, 20 government guidelines and 30 other references."
+      },
+      "passages": {
+        "label": "Searchable passages",
+        "body": "Each document is split into short passages and indexed for both meaning and exact wording."
+      },
+      "languages": {
+        "label": "Languages",
+        "body": "English, Hindi, Bengali, Punjabi, Gujarati, Marathi, Tamil, Telugu, Kannada, Malayalam and Odia."
+      },
+      "citations": {
+        "label": "Sections cited per answer",
+        "body": "The average across our 25-question test set. Every one is listed under the answer."
+      }
+    },
+    "features": {
+      "title": "More than a chat box",
+      "body": "A few things that make answers easier to use, and easier to check.",
+      "cta": "Start asking",
+      "deep": {
+        "title": "Deep Search",
+        "body": "For questions that cut across several laws. Vidhi plans a few searches, follows up on what it finds and shows each step. Needs a free account."
+      },
+      "pdf": {
+        "title": "Answer as a PDF",
+        "body": "Download any answer with your question and its sources, ready to show a lawyer or keep for your records."
+      },
+      "history": {
+        "title": "Chats that stay",
+        "body": "With an account, your conversations are saved for 90 days and follow you to any device. Delete them whenever you like."
+      },
+      "voice": {
+        "title": "Speak instead of typing",
+        "body": "Say your question in any of the 11 languages, in browsers that support voice input."
+      },
+      "pdfCardEyebrow": "PDF brief",
+      "pdfCardTitle": "Your answer, ready to share",
+      "pdfParts": {
+        "question": "Question",
+        "answer": "Answer",
+        "sources": "Sources",
+        "match": "Source match"
+      }
+    },
+    "limits": {
+      "title": "What Vidhi can't do",
+      "l1Title": "It isn't a lawyer.",
+      "l1Body": "It can explain what an act says. It can't tell you how a court will see your case.",
+      "l2Title": "It mostly covers central law.",
+      "l2Body": "Only a handful of state acts are in the library, from Delhi and Maharashtra. Local rules and very recent notifications may be missing.",
+      "l3Title": "It can be wrong.",
+      "l3Body": "Read the cited sections yourself, and speak to an advocate before you act on anything important.",
+      "l4Title": "It takes a little time.",
+      "l4Body": "A new answer usually takes 20 to 40 seconds, because it's checked before you see it. Repeat questions come back almost instantly.",
+      "cta": "Read the full disclaimer"
+    },
+    "faq": {
+      "title": "Questions people ask",
+      "q1": "Is Vidhi free?",
+      "a1": "Yes. You can get 5 answers without an account. A free account removes that limit, unlocks Deep Search and saves your chats.",
+      "q2": "Can I ask in my own language?",
+      "a2": "Yes. Choose from 11 languages in the menu at the top. Type or speak your question, and the answer comes back in the language you've chosen.",
+      "q3": "Where do the answers come from?",
+      "a3": "From the text of 494 official documents: central acts and codes, rules, government guidelines and landmark judgments. Every answer lists the sections it relied on, and you can browse the full list in the library.",
+      "q4": "Is this legal advice?",
+      "a4": "No. Vidhi explains what the law says in general terms. For your own situation, especially anything involving a court, a deadline or money, talk to a licensed advocate.",
+      "q5": "What happens to what I type?",
+      "a5": "Your question is sent to our language model provider, Ollama Cloud, to write the answer. Checked answers are cached for 7 days so repeat questions are faster. With an account, your chats are stored on our server for 90 days. Please leave out names, phone numbers and ID numbers.",
+      "q6": "Why does an answer take a while?",
+      "a6": "Vidhi searches, writes a draft, then checks each claim against the sources before it finishes. That usually takes 20 to 40 seconds. Questions it has answered before come back almost instantly.",
+      "q7": "How up to date is the law in Vidhi?",
+      "a7": "The library is updated by hand, so recent amendments can be missing. Check the date on any section you plan to rely on.",
+      "q8": "What is Deep Search?",
+      "a8": "A slower mode for questions that span several laws. Vidhi breaks the question into steps, searches for each one and shows you what it's looking up. It needs a free account."
+    },
+    "cta": {
+      "title": "Have a question about your rights?",
+      "body": "Ask it the way you'd ask a friend. Vidhi will find the law that applies and show you where it says so.",
+      "primary": "Ask Vidhi",
+      "secondary": "Browse the library",
+      "t1": "Free to use",
+      "t2": "5 answers without signing up",
+      "t3": "11 languages"
+    },
+    "showcase": {
+      "label": "What Vidhi does",
+      "slide": "Slide {{n}} of {{total}}",
+      "prev": "Previous",
+      "next": "Next",
+      "pause": "Pause the slideshow",
+      "play": "Play the slideshow",
+      "languagesBadge": "languages",
+      "languagesTitle": "Ask, and read answers, in any of them",
+      "languagesCaption": "Type or speak your question",
+      "languagesCaptionSub": "Voice works in browsers that support it",
+      "checkBadge": "source match",
+      "checkTitle": "Example: when must my wages be paid?",
+      "c1": "Wages are due by the 7th or 10th day after the wage period ends",
+      "c2": "Deductions are allowed only for reasons the Act lists",
+      "c3": "Delayed or unpaid wages can be claimed before the authority the Act names"
+    }
+  },
+  "signin": {
+    "asideTitle": "Keep your answers, and ask without limits.",
+    "b1": "Your chats are saved for 90 days and follow you to any device.",
+    "b2": "Deep Search for questions that span several laws.",
+    "b3": "No 5-answer limit.",
+    "asideNote": "Vidhi gives legal information, not legal advice. For your own case, talk to an advocate.",
+    "back": "Back to home",
+    "title": "Welcome back",
+    "subtitle": "Sign in to pick up where you left off.",
+    "createTitle": "Create your account",
+    "createSubtitle": "It's free and takes a minute.",
+    "tabSignIn": "Sign in",
+    "tabCreate": "Create account",
+    "google": "Continue with Google",
+    "or": "or",
+    "name": "Your name",
+    "email": "Email",
+    "password": "Password",
+    "passwordHint": "At least 8 characters.",
+    "passwordTooShort": "Use at least 8 characters for your password.",
+    "showPassword": "Show password",
+    "hidePassword": "Hide password",
+    "working": "One moment…",
+    "submitSignIn": "Sign in",
+    "submitCreate": "Create account",
+    "agreePrefix": "By continuing, you agree to the",
+    "agreeAnd": "and",
+    "guest": "Continue without an account",
+    "guestNote": "5 answers, and nothing is saved after you close the tab.",
+    "googleUnavailable": "Google sign-in didn't load. Check your connection, or use your email instead.",
+    "googleFailed": "Google sign-in didn't go through. Please try again.",
+    "wrongPassword": "That email and password don't match.",
+    "emailTaken": "There's already an account with this email. Try signing in.",
+    "invalidEmail": "Enter a valid email address.",
+    "lockedOut": "Too many attempts for this account. Try again in 15 minutes."
+  },
+  "chat": {
+    "newChat": "New chat",
+    "untitled": "Untitled chat",
+    "working": "Working",
+    "delete": "Delete",
+    "deleteChat": "Delete chat",
+    "hideSidebar": "Hide chats",
+    "showSidebar": "Show chats",
+    "searchChats": "Search chats",
+    "history": "Your chats",
+    "noMatches": "No chats match that.",
+    "noChats": "Your conversations will show up here.",
+    "group": {
+      "today": "Today",
+      "week": "Previous 7 days",
+      "older": "Older"
+    },
+    "guestTitle": "Guest answers",
+    "guestLeft": "{{n}} of {{total}} left",
+    "guestNote": "Guest chats disappear when you close this tab.",
+    "createAccount": "Create a free account",
+    "greeting": {
+      "morning": "Good morning.",
+      "afternoon": "Good afternoon.",
+      "evening": "Good evening.",
+      "morningNamed": "Good morning, {{name}}.",
+      "afternoonNamed": "Good afternoon, {{name}}.",
+      "eveningNamed": "Good evening, {{name}}."
+    },
+    "intro": "Ask about any Indian law. Vidhi answers from the official text and shows you the sections it used.",
+    "longChat": "This conversation is getting long. A new chat gives Vidhi a clearer view of your next question.",
+    "stage": {
+      "queued": "Waiting for a free slot…",
+      "searching": "Searching the library…",
+      "deep": "Planning the search…",
+      "deepDetail": "Looking up: {{query}}",
+      "writing": "Writing…",
+      "checking": "Checking each claim against the sources…",
+      "retrying": "Searching again…",
+      "translating": "Translating the answer into your language…"
+    },
+    "sources": "Sources",
+    "untitledSource": "Untitled source",
+    "fewerSources": "Show fewer",
+    "allSources": "Show all {{n}} sources",
+    "copied": "Copied",
+    "copyFailed": "Couldn't copy. Select the text instead.",
+    "pdfFailed": "The PDF couldn't be created. Please try again.",
+    "copy": "Copy",
+    "downloadPdf": "PDF",
+    "preparingPdf": "Preparing…",
+    "thanks": "Thanks for the feedback",
+    "helpful": "Helpful",
+    "notHelpful": "Not helpful",
+    "checkedAgainst_one": "Checked against {{n}} source",
+    "checkedAgainst_other": "Checked against {{n}} sources",
+    "match": "{{value}}% source match",
+    "matchExplain": "How closely the answer's claims match the cited passages. It measures support in the sources, not how strong your case is.",
+    "revised_one": "Revised once",
+    "revised_other": "Revised {{n}} times",
+    "deepSearch": "Deep Search",
+    "fromCache": "Answered before",
+    "limitTitle": "That's your 5 free answers",
+    "limitBody": "Create a free account to keep asking. It also saves your chats and unlocks Deep Search.",
+    "firstDraft": "Show the first draft (replaced after checking)",
+    "retrying": "Some claims didn't match the sources, so Vidhi is searching again and rewriting.",
+    "stopped": "You stopped this answer.",
+    "tryAgain": "Try again",
+    "placeholder": "Ask about a law, a right or a situation…",
+    "deepLocked": "Deep Search needs a free account.",
+    "deepExplain": "Deep Search: slower, step-by-step research for questions that span several laws",
+    "stopListening": "Stop listening",
+    "speak": "Speak your question",
+    "stop": "Stop",
+    "send": "Send",
+    "disclaimer": "Vidhi can make mistakes. Check the cited sections before acting on an answer.",
+    "historyLoadFailed": "Couldn't load your saved chats. New chats won't be saved until you reload.",
+    "charCount": "{{n}} of {{max}} characters"
+  },
+  "settings": {
+    "title": "Settings",
+    "account": "Account",
+    "guestAccount": "You're using Vidhi as a guest. Sign in to save your chats and use Deep Search.",
+    "signOut": "Sign out",
+    "deleteAccount": "Delete account",
+    "deleteAccountWarning": "This permanently deletes your account and all saved chats. It can't be undone.",
+    "accountDeleted": "Your account has been deleted",
+    "language": "Language",
+    "languageHelp": "Used for the interface and for answers.",
+    "appearance": "Appearance",
+    "light": "Light",
+    "dark": "Dark",
+    "data": "Your data",
+    "guestData": "Guest chats live only in this tab and are gone when you close it.",
+    "accountData": "Chats are stored on our server for 90 days after your last change. You can download or delete them here.",
+    "export": "Download my chats",
+    "clear": "Delete all chats",
+    "confirmClear": "Yes, delete everything",
+    "cleared": "All chats deleted"
+  },
+  "library": {
+    "title": "The library",
+    "body": "Every document Vidhi answers from. Search by name, filter by type, or ask about any of them directly.",
+    "search": "Search 494 documents",
+    "filter": "Filter by type",
+    "types": {
+      "all": "All",
+      "acts": "Acts and codes",
+      "rules": "Rules",
+      "cases": "Judgments",
+      "guidelines": "Guidelines",
+      "other": "Other"
+    },
+    "typeSingular": {
+      "acts": "Act or code",
+      "rules": "Rule or regulation",
+      "cases": "Landmark judgment",
+      "guidelines": "Guideline or policy",
+      "other": "Other document"
+    },
+    "showing": "{{shown}} of {{total}}",
+    "emptyTitle": "Nothing matches that search",
+    "emptyBody": "Try a shorter name, or ask your question directly. Vidhi searches inside the documents, not just their titles.",
+    "askInstead": "Ask Vidhi instead",
+    "ask": "Ask about this",
+    "askPrompt": "Explain {{title}} in plain words: what it covers and its main provisions.",
+    "more": "Show more"
+  },
+  "pdf": {
+    "title": "Answer summary",
+    "question": "Your question",
+    "answer": "Answer",
+    "sources": "Sources",
+    "disclaimer": "Prepared by Vidhi from the text of Indian law. This is general legal information, not legal advice, and it may contain mistakes. Check the cited sections and consult a licensed advocate before acting on it.",
+    "page": "Page {{n}} of {{total}}"
+  },
+  "errors": {
+    "generic": "Something went wrong. Please try again.",
+    "network": "Can't reach Vidhi right now. Check your connection, or try again in a minute.",
+    "guestDaily": "You've used today's guest answers. Create a free account to keep going.",
+    "rateLimited": "That's a lot of questions at once. Wait a minute and try again.",
+    "deepSearchAccount": "Deep Search needs a free account.",
+    "sessionExpired": "Your session expired. Please sign in again.",
+    "server": "Vidhi ran into a problem on its side. Please try again.",
+    "modelBusy": "The language model is busy. Wait about 30 seconds and ask again.",
+    "answerFailed": "This answer couldn't be finished. Please ask again.",
+    "incomplete": "The connection dropped before the answer finished."
+  },
+  "policies": {
+    "terms": {
+      "title": "Terms of use",
+      "intro": "Last updated September 2026. By using Vidhi, you agree to these terms.",
+      "s1Title": "What Vidhi is",
+      "s1Body": "Vidhi is a free, independent tool that explains Indian law in plain language using a library of official documents. It is not a law firm and does not provide legal services.",
+      "s2Title": "Use it for information",
+      "s2Body": "Answers are general information about what the law says. Don't use them in place of advice from a licensed advocate, and don't present them to courts or authorities as legal opinions.",
+      "s3Title": "Use it fairly",
+      "s3Body": "Don't try to overload the service, get around usage limits, get into other people's accounts, or use Vidhi to harass anyone. We may block access that puts the service or other people at risk.",
+      "s4Title": "No guarantees",
+      "s4Body": "Vidhi runs on personal hardware and a free language-model tier. It may be unavailable, slow or wrong, and the library may miss recent changes to the law. It is provided as is, without warranties.",
+      "s5Title": "Liability",
+      "s5Body": "As far as the law allows, the people who build Vidhi aren't liable for losses that come from relying on its answers. Check anything important against the official text and with a professional."
+    },
+    "privacy": {
+      "title": "Privacy",
+      "intro": "What Vidhi collects, where it goes and how long it stays. Last updated September 2026.",
+      "s1Title": "Without an account",
+      "s1Body": "Your chats stay in the open browser tab and are gone when you close or reload it. The browser keeps a small counter of how many free answers you've used, plus your language and theme settings.",
+      "s2Title": "With an account",
+      "s2Body": "We store your name, your email address and a salted hash of your password, never the password itself. If you sign in with Google, we receive your name and verified email. Your chats are stored on our server and deleted 90 days after your last activity, or straight away when you delete them in Settings.",
+      "s3Title": "Your questions",
+      "s3Body": "To write an answer, your question and the recent conversation are sent to our language model provider, Ollama Cloud. Answers that pass checking are cached for 7 days and can be reused for near-identical questions from anyone, so please don't include names, phone numbers, addresses or ID numbers.",
+      "s4Title": "What we log",
+      "s4Body": "We keep aggregate counts, such as how many questions were asked each day and how often answers needed revising. We don't store the text of your questions for analytics. If you rate an answer, the rating is stored with an anonymous chat ID. To prevent abuse, we briefly count requests per IP address.",
+      "s5Title": "No ads or tracking",
+      "s5Body": "Vidhi has no advertising, no third-party analytics and no tracking cookies. The site is served by Vercel and reaches our server through Tailscale. The only other outside services are Google Fonts, Google sign-in if you choose it, and the language model provider.",
+      "s6Title": "Your choices",
+      "s6Body": "You can download or delete your chats at any time, and delete your account from Settings. Deleting your account removes your profile and saved chats immediately. We follow India's Digital Personal Data Protection Act, 2023."
+    },
+    "disclaimer": {
+      "title": "Disclaimer",
+      "intro": "Please read this before relying on anything Vidhi tells you.",
+      "s1Title": "Not legal advice",
+      "s1Body": "Vidhi provides general legal information. It is not a law firm, and using it doesn't create a lawyer–client relationship. Under the Advocates Act, 1961, only enrolled advocates can practise law.",
+      "s2Title": "Answers can be wrong",
+      "s2Body": "Answers are written by a language model from retrieved passages and checked automatically, but mistakes still get through. Always read the cited sections yourself.",
+      "s3Title": "The library has gaps",
+      "s3Body": "Vidhi covers 494 documents, mostly central acts and rules. Most state laws, local regulations and recent amendments are not included.",
+      "s4Title": "Get help for serious matters",
+      "s4Body": "If your situation involves a court case, a deadline, police action or a significant sum of money, speak to a licensed advocate. Free legal aid is available through your District Legal Services Authority, or call the NALSA helpline on 15100."
+    }
+  }
+}

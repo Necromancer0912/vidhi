@@ -1,0 +1,32 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+.pytest_cache/
+.ruff_cache/
+.coverage
+
+# Environment and secrets
+.env
+.env.*
+!.env.example
+frontend/.env
+frontend/.env.*
+
+# Data: corpora, indexes and benchmark runs live outside git
+data/
+# ...except the library index the frontend ships
+!frontend/src/data/
+
+# Frontend
+node_modules/
+frontend/dist/
+.vercel
+.wrangler/
+
+# OS / editors
+.DS_Store
+.idea/
+.vscode/

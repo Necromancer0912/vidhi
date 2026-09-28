@@ -1,0 +1,47 @@
+version: "3.9"
+
+# =====================================================================
+# NYAYABOT — GPU PC DEPLOYMENT (Windows, RTX 4060 Ti)
+#
+# Docker runs ONLY the infrastructure services:
+#   - Qdrant  (vector database)      → port 6333
+#   - Redis   (cache + memory)       → port 6379
+#
+# These run BARE-METAL (not in Docker) for GPU access:
+#   - llama-server LLM       → port 8080  (Qwen3.5-4B-Q8_0)
+#   - llama-server Embeddings → port 8081  (nomic-embed-text)
+#   - FastAPI backend         → port 8000  (uvicorn main:app)
+#   - React frontend          → served by FastAPI from frontend/dist/
+#
+# Start with:
+#   docker compose up -d qdrant redis
+# =====================================================================
+
+services:
+  qdrant:
+    image: qdrant/qdrant:latest
+    container_name: nyayabot_qdrant
+    restart: unless-stopped
+    ports:
+      # Localhost only: neither service has a password, so never publish them
+      # on the network. The backend connects via localhost.
+      - "127.0.0.1:6333:6333"
+      - "127.0.0.1:6334:6334"
+    volumes:
+      - qdrant_data:/qdrant/storage
+    environment:
+      - QDRANT__SERVICE__HTTP_PORT=6333
+
+  redis:
+    image: redis:7-alpine
+    container_name: nyayabot_redis
+    restart: unless-stopped
+    ports:
+      - "127.0.0.1:6379:6379"
+    command: redis-server --appendonly yes
+    volumes:
+      - redis_data:/data
+
+volumes:
+  qdrant_data:
+  redis_data:

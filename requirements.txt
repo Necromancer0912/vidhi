@@ -1,0 +1,3 @@
+# Dependencies are declared in pyproject.toml (single source of truth).
+# This file exists so `pip install -r requirements.txt` and the Makefile keep working.
+-e .[dev]

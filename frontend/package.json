@@ -1,0 +1,37 @@
+{
+  "name": "vidhi-frontend",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "i18n": "python3 ../scripts/translate_locales.py",
+    "i18n:check": "python3 ../scripts/translate_locales.py --check"
+  },
+  "dependencies": {
+    "dompurify": "^3.4.16",
+    "html2canvas": "^1.4.1",
+    "i18next": "^26.3.1",
+    "i18next-http-backend": "^4.0.0",
+    "jspdf": "^4.2.1",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "react-i18next": "^17.0.8"
+  },
+  "devDependencies": {
+    "@tailwindcss/postcss": "^4.3.1",
+    "@types/react": "^18.3.1",
+    "@types/react-dom": "^18.3.1",
+    "@vitejs/plugin-react": "^4.3.1",
+    "autoprefixer": "^10.5.0",
+    "marked": "^18.0.5",
+    "postcss": "^8.5.15",
+    "tailwindcss": "^4.3.1",
+    "vite": "^5.4.0"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}
